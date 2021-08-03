@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<WorldItems xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapObjects>
+    <SceneObjs>
+      <name>Lowpoly_tree_sample (248)</name>
+      <path />
+      <position>
+        <x>95.18099</x>
+        <y>1.30000019</y>
+        <z>293.311737</z>
+      </position>
+      <rotation>
+        <x>-0</x>
+        <y>173.973267</y>
+        <z>-0</z>
+      </rotation>
+      <scale>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+      </scale>
+      <tilePosition>
+        <x>38</x>
+        <y>0</y>
+        <z>291</z>
+      </tilePosition>
+      <coordinate>
+        <x>2</x>
+        <y>5</y>
+      </coordinate>
+      <type>ground</type>
+    </SceneObjs>
+    <SceneObjs>
+      <name>Tree_lp_11</name>
+      <path />
+      <position>
+        <x>95.22868</x>
+        <y>-0.3442185</y>
+        <z>292.86</z>
+      </position>
+      <rotation>
+        <x>270</x>
+        <y>173.973267</y>
+        <z>0</z>
+      </rotation>
+      <scale>
+        <x>2</x>
+        <y>2</y>
+        <z>2</z>
+      </scale>
+      <tilePosition>
+        <x>38</x>
+        <y>0</y>
+        <z>291</z>
+      </tilePosition>
+      <coordinate>
+        <x>2</x>
+        <y>5</y>
+      </coordinate>
+      <type>ground</type>
+    </SceneObjs>
+  </MapObjects>
+</WorldItems>

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1950440063390647166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1950440063390647160}
+  - component: {fileID: 1950440063390647167}
+  m_Layer: 0
+  m_Name: ChunkManagerOLD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1950440063390647160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950440063390647166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 99.2, y: 0, z: 138.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1950440063390647167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950440063390647166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd855459a3c3896469847e798c96733e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainType: 1
+  meshObj: {fileID: 0}
+  objectT: {fileID: 0}
+  tree: {fileID: 0}
+  test: []
+  playArea: 10
+  chunkSize: 80
+  viewDist: 500
+  mainCam: {fileID: 0}
+  treesM:
+  - {fileID: 7126656835641064825, guid: 0d060ab237110c24da26f2cff5cf52e7, type: 3}
+  - {fileID: 904993080628731859, guid: d01d97164f00bf04d8091a25c0991362, type: 3}
+  - {fileID: 3012214922133477896, guid: 2d4e2c3d88bfc6646a0ac3c63f7d17b3, type: 3}
+  - {fileID: 5642504250185263484, guid: cbae61d17f28a934da36d34d460ba7b7, type: 3}
+  - {fileID: 3018894441905330478, guid: bab5214498abaa241a1ff3057d5f67da, type: 3}
+  - {fileID: -3197194462005787935, guid: f5d0b6ab26fcb1b4e835e5f615d853cf, type: 3}
+  - {fileID: 8641408168859250866, guid: 8c2582c7d389b9f42b7fca7d100da9eb, type: 3}
+  radius: 20
+  regionSize: {x: 80, y: 80}
+  rejectionSamples: 20
+  displayRadius: 1
